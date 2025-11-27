@@ -58,14 +58,14 @@
 
 .fixed-box {
     background-color:#333;
-    color:|white;
-    padding: 15px;
-    width: 100px; /* Spans the full width of the viewport*/
+    color:white;
+    padding:15px;
+    width:100px; /* Spans the full width of the viewport*/
     text-align: center;
 
     position: fixed;
     /* Locks it to the bottom of the browser window*/
-    bottom: 0;
+    bottom:  0;
     right:0px;
-    z-index: 1000;/* Ensures it is on the top of other content*/
+    z-index:1000;/* Ensures it is on the top of other content*/
 }

@@ -1,0 +1,56 @@
+/* General Reset and Styling*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#333;
+}
+
+hr {
+    margin: 40px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.demo-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+}
+
+.resize-note {
+    margin-top: 20px;
+    font-style: italic;
+    color:#555;
+    text-align:center;
+}
+
+/*---Flex Container Setup---*/
+
+.flex-container {
+    /* REQUIRED: This turns on Flexbox for the container*/
+    display: flex;
+    border:2px dashed #007bff;
+    padding:10px;
+    min-height: 100px;
+    margin-top:15px;
+}
+/*---DEMO 1: Navigation Bar ---*/
+
+.nav-bar {
+    /* Sets the Main Axis direction */
+    flex-direction: row;
+
+    /* Distribution space BETWEEN the items along the Main 
+}
