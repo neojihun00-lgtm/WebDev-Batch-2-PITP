@@ -114,4 +114,4 @@ hr {
     /* flex-basis sets the initial size before growth/shrink */
     flex: 0 0 100%; /* Shorthand: Don't grow (0), Don't shrink (0), Base size is 100% */
     background-color: #6c757d;
-}
+} 
