@@ -5,21 +5,46 @@
    background-color: black;
    color: white;
 }
-
-header {
+.id1 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkblue;
+    background-color: black;
     padding: 10px;
     color: white;
+    font-size: 20px;
+}
+.about{
+    font-size: 25px;
+}
+
+
+nav a{
+    display:inline;
+    list-style: none;
+    justify-content:left;
+    margin-left: 50px;
+    padding: 0%;
+    justify-items: right;
+    
+
+   
+}
+.index{
+    font-size: 25px;
+}
+.name{
+    font-size: 40px;
+}
+.nav1{
+    justify-items: left;
 }
 
 img {
     border-radius: 50px;
-    border: 2px solid darkblue;
+    border: 2px solid white;
 }
-
+fieldset{
+    font-size: 30px;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -27,16 +52,27 @@ main {
     gap: 20px;
 }
 
+.para1{
+    font-size: 30px;
+    margin: 12;
+}
 p {
-    font-size: 12px;
+    font-size: 20px;
     text-align: justify;
-
 }
 
 section {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+table{
+    align-items: center;
+}
+table td {
+    text-align: center;
+    font-size: 30px;
+  
 }
 
 h1 {
@@ -46,12 +82,27 @@ h1 {
 a {
     color: white;
 }
+.btn1{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact{
+    font-size: 40px;
+}
+.project{
+    font-size: 40px;
+}
 footer {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    background-color: black;
     padding: 10px;
     color: white;
+    font-size: 25px;
 }
