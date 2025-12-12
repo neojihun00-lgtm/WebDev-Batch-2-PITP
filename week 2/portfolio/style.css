@@ -11,31 +11,30 @@
     padding: 10px;
     color: white;
     font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 .about{
-    font-size: 25px;
+    font-size: 30px;
 }
 
-
-nav a{
-    display:inline;
-    list-style: none;
-    justify-content:left;
-    margin-left: 50px;
-    padding: 0%;
-    justify-items: right;
-    
-
-   
+hr{
+    border-color: gray;
 }
+nav {
+    display: flex;
+    justify-content: space-between ; 
+    padding: 1em;
+    text-align: left;
+    margin: 0;
+    gap: 20px;
+}
+
 .index{
     font-size: 25px;
 }
 .name{
     font-size: 40px;
-}
-.nav1{
-    justify-items: left;
 }
 
 img {
